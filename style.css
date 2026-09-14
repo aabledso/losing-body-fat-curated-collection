@@ -254,11 +254,68 @@ category-item:hover h3 {
 }
 
 .resource-link {
-    color: #1c1c1c;
+    color: #1b4585;
     text-decoration: none;
     font-weight: bold;
 }
 
 .resource-link:hover {
     text-decoration: underline;
+}
+
+/*Resource tags*/
+.topic-tags {
+    margin-top: 30px;
+}
+
+.tags-label {
+    display: block;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+.tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+}
+
+.tags a,
+.resource-tags span {
+    display: inline-block;
+    padding: 6px 11px;
+    border: 1px solid #cccccc;
+    border-radius: 3px;
+    font-size: 13px;
+    color: #444;
+    text-decoration: none;
+
+}
+
+.tags a:hover {
+    background-color: #eeeeee;
+}
+
+.resource-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
+    margin-bottom: 18px;
+}
+
+.resource-annotation {
+    margin: 20px 0;
+    max-width: 800px;
+}
+
+.resource-annotation p {
+    margin-bottom: 14px;
+    line-height: 1.6;
+}
+
+.resource-annotation strong {
+    font-weight: 600;
 }
