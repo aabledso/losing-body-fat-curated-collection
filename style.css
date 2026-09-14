@@ -48,3 +48,53 @@ nav a {
 nav a:hover {
     opacity: 0.6;
 }
+
+/* HERO styles*/
+.hero {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 40px 45px;
+    border-bottom: 1px solid #dcdcdc;
+}
+
+.collection-label {
+    font-size: 13px;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+    color: #777;
+    margin-bottom: 14px;
+}
+
+.hero h1 {
+    font-size: 52px;
+    margin-bottom: 18px;
+}
+
+.collection-intro {
+    max-width: 720px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #555;
+}
+
+.resource-overview {
+    display: flex;
+    gap: 50px;
+    margin-top: 45px;
+}
+
+.overview-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.overview-number {
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.overview-label {
+    font-size: 14px;
+    color: #777;
+    margin-top: 4px;
+}
