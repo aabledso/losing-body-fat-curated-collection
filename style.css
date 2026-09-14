@@ -164,3 +164,101 @@ nav a:hover {
 category-item:hover h3 {
     text-decoration: underline;
 }
+
+/*Category page styles)*/
+.category-header {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 70px 40px 50px;
+    border-bottom: 1px solid #d8d8d8;
+}
+
+.category-header h1 {
+    font-size: 48px;
+    margin-bottom: 18px;
+}
+
+.category-description {
+    max-width: 700px;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #666;
+}
+
+.resource-section {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 50px 40px;
+}
+
+.resource-section-heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.resource-section-heading h2 {
+    font-size: 28px;
+}
+
+.resource-section-heading p {
+    color: #777;
+    font-size: 14px;
+}
+
+/*repeatable section styles*/
+.resource-item {
+    display: grid;
+    grid-template-columns: 120px 1fr;
+    gap: 40px;
+    padding: 35px 0;
+    border-top: 1px solid #d8d8d8;
+}
+
+.resource-meta {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.resource-type {
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.resource-number {
+    font-size: 14px;
+    color: #888;
+}
+
+.resource-content h3 {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.resource-source {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+.resource-annotation {
+    max-width: 800px;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+.resource-link {
+    color: #1c1c1c;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.resource-link:hover {
+    text-decoration: underline;
+}
