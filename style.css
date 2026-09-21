@@ -99,6 +99,12 @@ nav a:hover {
     margin-top: 4px;
 }
 
+.hero-plc {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 /*CATEGORY/topic styles*/
 .categories {
     max-width: 1200px;
