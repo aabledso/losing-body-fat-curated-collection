@@ -112,7 +112,8 @@ nav a:hover {
     padding: 60px 40px;
 }
 
-.section-label {
+.section-label,
+.synthesis-label {
     font-size: 13px;
     font-weight: bold;
     letter-spacing: 1.5px;
@@ -331,5 +332,11 @@ category-item:hover h3 {
     max-width: 800px;
     margin: 0 auto;
     padding: 80px 30px;
+    line-height: 1.7;
+}
+
+.synthesis-content {
+    max-width: 800px;
+    padding: 40px 0px;
     line-height: 1.7;
 }
