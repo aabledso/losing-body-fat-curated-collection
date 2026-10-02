@@ -328,15 +328,67 @@ category-item:hover h3 {
 }
 
 /*Intro Section styles*/
-.intro-content {
+.synthesis-content {
     max-width: 800px;
-    margin: 0 auto;
-    padding: 80px 30px;
+    padding: 15px 0px;
     line-height: 1.7;
 }
 
-.synthesis-content {
+.intro-content {
     max-width: 800px;
-    padding: 40px 0px;
+    margin: 0 auto;
+    padding: 40px 30px 15px;
     line-height: 1.7;
+}
+
+.intro-content>p {
+    margin-bottom: 18px;
+}
+
+.step-heading {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    margin: 0 0 16px;
+}
+
+.step-number {
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+}
+
+.step-label {
+    margin: 0 0 4px;
+    font-size: 12px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+.step-heading h2 {
+    margin: 0;
+}
+
+.key-takeaway {
+    margin: 8px 0 0;
+    padding: 16px 18px;
+    border-left: 4px solid #777;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+.takeaway-label {
+    margin: 0 0 6px;
+    font-size: 13px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+}
+
+.key-takeaway p:last child {
+    margin: 0;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 1.6;
 }
