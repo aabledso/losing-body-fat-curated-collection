@@ -392,3 +392,28 @@ category-item:hover h3 {
     font-weight: 600;
     line-height: 1.6;
 }
+
+/*References section*/
+.references-content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 40px 30px;
+}
+
+.references-content h2 {
+    margin: 4px 0 24px;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.reference-list {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+}
+
+.reference-item p {
+    margin: 0;
+    line-height: 1.6;
+    font-size: 15px;
+}
